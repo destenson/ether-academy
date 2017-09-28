@@ -1,4 +1,4 @@
-This is the Official Repo for all Research.
+This is the Official Repo for all learning resources.
 
 **Developer Links**
 
