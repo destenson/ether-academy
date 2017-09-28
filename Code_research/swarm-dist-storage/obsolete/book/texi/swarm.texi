@@ -1,0 +1,140 @@
+\input texinfo @c -*-texinfo-*-
+@c %**start of header
+@setfilename swarm
+@settitle Swarm -- Reference Manual
+@set frontcontents
+@ifset publish
+@afourpaper
+@set frontcontents
+@setchapternewpage odd
+@end ifset
+@paragraphindent none
+@c @firstparagraphindent none
+@documentlanguage en
+@c @documentencoding utf-8
+@c %**end of header
+
+@tex
+\tolerance=2000000
+\vbadness=10000
+\hbadness=1000000
+@end tex
+
+@set SWARM @i{Swarm}
+@set VERSION 0.1
+@set EDITION draft for vanilla POC @value{VERSION}
+@set ETHEREUM @uref{http://ethereum.org}
+@set ETHDEV @uref{http://ethdev.com}
+@set GITHUB @uref{http://github.com/ethereum/go-ethereum}
+@set ETHERSPHERE @uref{http://github.com/ethersphere}
+@set VTEMAIL @email{viktor.tron@@gmail.com}
+@set DNEMAIL @email{nagydani@@gmail.com}
+@set ZFEMAIL @email{zsfelfoldi@@gmail.com}
+
+@dircategory Swarm {viktor.tron@@gmail.com}
+
+@copying
+Copyright @copyright{} 2015 ΞTHΞЯSPHΞЯΞ
+
+This document is licensed under the @emph{Creative Commons Attribution License}. To
+view a copy of this license, visit
+@uref{http://creativecommons.org/licenses/by/2.0/} or send a letter to
+Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305,
+USA.
+
+@ifclear publish
+Printable copies of this manual can be obtained from the texinfo source.
+@end ifclear
+@end copying
+
+@titlepage
+@title Swarm
+@subtitle Plan Bee For Content Storage and Distribution on Web 3.0
+@subtitle Reference Manual
+@subtitle Edition @value{EDITION}
+
+@center @image{swarm-logo,300px,300px,Swarm Logo,png}
+
+@author Viktor Trón, Dániel A. Nagy, Zsolt Felföldi
+
+@value{VTEMAIL}
+@value{DNEMAIL}
+@value{ZFEMAIL}
+@sp 1
+
+
+@value{SWARM} documentation for version @value{VERSION}.
+This document source code is found at @url{https://github.com/ethersphere/swarm/tree/master/book}
+The most uptodate swarm book in various formats is available on the old web
+@url{http://ethersphere.org/swarm/docs} as well as on swarm @url{bzz://swarm/docs}
+
+@page
+@vskip 0pt plus 1filll
+@c @insertcopying
+@end titlepage
+
+@c @ifset frontcontents
+@contents
+@c @end ifset
+
+@ifnottex
+@node Top, Introduction, (dir), (dir)
+@top Swarm Reference Manual
+@c @insertcopying
+@end ifnottex
+
+@c define indices
+@c keywords
+@defindex kw
+@c files
+@defindex fi
+@c options
+@defindex vr
+@c questions for the FAQ
+@defindex qu
+
+@menu
+* Introduction::
+* Running a node::
+* Usage::
+* API::
+* Incentivisation::
+* Architecture::
+* Specifications::
+* Related Projects::
+* Frequently Asked Questions::
+* Options Index::
+* Concept Index::
+@end menu
+
+@include introduction.texi
+@include runninganode.texi
+@include usage.texi
+@include api.texi
+@include incentivisation.texi
+@include architecture.texi
+@include specifications.texi
+@include related_projects.texi
+
+@node Frequently Asked Questions, Options Index, Related Projects, Top
+@unnumbered Frequently Asked Questions
+@printindex qu
+
+@node Options Index, Concept Index, Frequently Asked Questions, Top
+@unnumbered Options Index
+@printindex vr
+
+@node Concept Index, , Options Index, Top
+@unnumbered Concept Index
+@printindex cp
+
+@ifclear frontcontents
+@comment Use @setchapternewpage odd to ensure that the contents starts
+@comment on an odd page so that it can always be moved to the front when
+@comment printing two-up.
+@setchapternewpage odd
+@contents
+@end ifclear
+
+
+@bye

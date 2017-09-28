@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://docs.decred.org/research/overview/ -->
+<html lang="en"><script type="text/javascript" async="" defer="" src="./Decred_overview _files/piwik.js"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://docs.decred.org/research/overview/">
+        <link rel="shortcut icon" href="https://docs.decred.org/img/favicon.ico">
+        <title>Overview - Decred Documentation</title>
+        <link href="./Decred_overview _files/bootstrap-custom.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./Decred_overview _files/highlight.css">
+        <link rel="stylesheet" href="./Decred_overview _files/font-awesome-4.0.3.css">
+        <link href="./Decred_overview _files/style.css" rel="stylesheet">
+        <link href="./Decred_overview _files/base.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="./Decred_overview _files/jquery-1.10.2.min.js"></script>
+        <script src="./Decred_overview _files/bootstrap-3.0.3.min.js"></script>
+        <script src="./Decred_overview _files/highlight.pack.js"></script>
+        
+        <!-- Piwik -->
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+            var u="//analytics.decred.org/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '2']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <noscript>&lt;p&gt;&lt;img src="//analytics.decred.org/piwik.php?idsite=2&amp;rec=1" style="border:0;" alt="" /&gt;&lt;/p&gt;</noscript>
+        <!-- End Piwik Code --> 
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="search" src="./Decred_overview _files/search.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../mkdocs/js/mustache.min.js" src="./Decred_overview _files/mustache.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../../mkdocs/js/lunr.min.js" src="./Decred_overview _files/lunr.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="text" src="./Decred_overview _files/text.js"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+    <body style=""><div id="MathJax_Message" style="display: none;"></div>
+        <div class="container">
+                <div class="col-sm-3 col-xs-12" role="navigation">
+                    <!-- Top Bar -->
+<div class="top-bar">
+    <!-- Logo -->
+    <a class="svg-decred-logo" href="https://docs.decred.org/">
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200"><defs><style>.cls-1{fill:#0c1e3e;}.cls-2{fill:#2ed7a2;}.cls-3{fill:#2972ff;}.cls-4{fill:#fff;}</style></defs><title>decred - logo - primary - negative - full color</title><rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" width="640" height="200"></rect><g id="_Group_" data-name="&lt;Group&gt;"><g id="_Group_2" data-name="&lt;Group&gt;"><path id="_Path_" data-name="&lt;Path&gt;" class="cls-2" d="M106.47,111.27H137.9a21.18,21.18,0,0,0,0-42.36h-10L106.47,50.32H137.9a39.78,39.78,0,0,1,15,76.62l24.78,21.51H149.3Z"></path></g><g id="_Group_3" data-name="&lt;Group&gt;"><path id="_Path_2" data-name="&lt;Path&gt;" class="cls-3" d="M121.81,87.51H90.38a21.18,21.18,0,0,0,0,42.36h10l21.42,18.59H90.38a39.78,39.78,0,0,1-15-76.62L50.62,50.32H79Z"></path></g><path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" class="cls-4" d="M347.21,118.38v-.17c0-17.64,13.57-31.47,31.9-31.47,12.36,0,20.32,5.19,25.68,12.62l-12.62,9.77c-3.46-4.32-7.43-7.09-13.22-7.09-8.47,0-14.44,7.18-14.44,16v.17c0,9.07,6,16.16,14.44,16.16,6.31,0,10-2.94,13.66-7.35l12.62,9c-5.71,7.87-13.4,13.66-26.8,13.66C361.13,149.68,347.21,136.45,347.21,118.38Z"></path><path id="_Compound_Path_2" data-name="&lt;Compound Path&gt;" class="cls-4" d="M411.2,87.51H440c9.31,0,15.76,2.44,19.85,6.62,3.57,3.48,5.4,8.18,5.4,14.19v.17c0,9.31-5,15.5-12.54,18.72l14.54,21.24h-19.5L435.49,130h-7.4v18.46H411.2Zm28,29.25c5.75,0,9.05-2.79,9.05-7.23v-.17c0-4.79-3.48-7.23-9.14-7.23H428.09v14.62Z"></path><path id="_Compound_Path_3" data-name="&lt;Compound Path&gt;" class="cls-4" d="M473.19,87.52h49v14.37h-32.3v9.23h29.25v13.32H489.91v9.66h32.74v14.37H473.19Z"></path><path id="_Compound_Path_4" data-name="&lt;Compound Path&gt;" class="cls-4" d="M531.49,87.52H555c21.77,0,34.39,12.54,34.39,30.12v.18c0,17.59-12.8,30.65-34.74,30.65H531.49Zm23.77,46c10.1,0,16.8-5.57,16.8-15.41v-.17c0-9.75-6.7-15.41-16.8-15.41h-6.88v31Z"></path><path id="_Compound_Path_5" data-name="&lt;Compound Path&gt;" class="cls-4" d="M312.76,149.61c-17.89,0-30.87-13.18-30.87-31.34,0-17.93,12.62-31.46,29.36-31.46,9,0,16.41,3.34,21.53,9.66,4.67,5.76,7.24,13.88,7.24,22.85,0,1-.08,2-.17,3.09H294.36l.14.88c1.63,10,8.72,16.28,18.49,16.28,6.43,0,11.46-2.12,16.71-7.08l7.21,6.4C330.66,146.1,322.75,149.61,312.76,149.61Zm-1.63-52.76c-8.79,0-15.37,6.63-16.74,16.88l-.11.86H327.6l-.09-.83C326.45,103.33,320.17,96.85,311.12,96.85Z"></path><path id="_Compound_Path_6" data-name="&lt;Compound Path&gt;" class="cls-4" d="M239.39,149.61c-13.89,0-27.95-10.81-27.95-31.46s14.06-31.46,27.95-31.46c8.25,0,15,3.47,20.49,10.6L261.25,99V59.62H273.9v88.84H261.25V136.38l-1.38,1.95C254.48,145.92,247.79,149.61,239.39,149.61Zm3.4-52.14c-10.93,0-18.57,8.5-18.57,20.68,0,12,7.81,20.68,18.57,20.68s18.69-8.89,18.69-20.68S253.45,97.47,242.79,97.47Z"></path></g></svg>
+    </a>
+
+    <!-- Expander button -->
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+</div>
+
+<!-- Navigation Container -->
+<div class="scroll-spy hidden-print navbar-collapse collapse">
+    <ul class="nav bs-sidenav current">
+
+        <!-- Search -->
+        <div class="search-nav">
+            <form role="form">
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">
+                        <svg class="svg-search">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../img/sprites.svg#svg-search"></use>
+                        </svg>
+                    </span>
+                    <input type="text" class="form-control" placeholder="Search" id="mkdocs-search-query" autocomplete="off">
+                </div>
+            </form>
+            <div id="mkdocs-search-results"></div>
+        </div>
+
+        <!-- Navigation -->
+        
+        <li class="nav-link">
+    
+</li><li>
+        
+        </li><li class="nav-link">
+    <ul class="subnav">
+    <li><span class="group-heading">Getting Started</span></li>
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/beginner-guide/">Beginner's Guide</a>
+            
+        </li>
+    
+
+        
+            
+    <ul class="subnav">
+    <li><span class="group-heading">Paymetheus</span></li>
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/user-guides/paymetheus/">Paymetheus Setup</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/user-guides/using-paymetheus/">Using Paymetheus</a>
+            
+        </li>
+    
+
+        
+    </ul>
+
+        
+            
+    <ul class="subnav">
+    <li><span class="group-heading">Decrediton</span></li>
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/user-guides/decrediton-setup/">Decrediton Setup</a>
+            
+        </li>
+    
+
+        
+    </ul>
+
+        
+            
+    <ul class="subnav">
+    <li><span class="group-heading">Command-Line</span></li>
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/user-guides/cli-installation/">Installation</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/cli-differences/">OS Differences</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/startup-basics/">Startup Basics</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/user-guides/dcrd-setup/">dcrd Setup</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/user-guides/dcrwallet-setup/">dcrwallet Setup</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/user-guides/dcrctl-basics/">dcrctl Basics</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/user-guides/dcrwallet-tickets/">Buying Tickets</a>
+            
+        </li>
+    
+
+        
+    </ul>
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/user-guides/web/">Web Wallet</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/obtaining-dcr/">Obtaining DCR</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/using-the-block-explorer/">Using the Block Explorer</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/user-guides/agenda-voting/">Mainnet Voting Guide</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/using-testnet/">Using Testnet</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/getting-started/constitution/">Decred Constitution</a>
+            
+        </li>
+    
+
+        
+    </ul>
+</li><li>
+        
+        </li><li class="nav-link">
+    <ul class="subnav">
+    <li><span class="group-heading">Mining</span></li>
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/mining/proof-of-stake/">Proof-of-Stake (PoS)</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/mining/proof-of-work/">Proof-of-Work (PoW)</a>
+            
+        </li>
+    
+
+        
+            
+    <ul class="subnav">
+    <li><span class="group-heading">User Guides</span></li>
+        
+            
+    <ul class="subnav">
+    <li><span class="group-heading">gominer</span></li>
+        
+            
+    <ul class="subnav">
+    <li><span class="group-heading">Pool-Mining</span></li>
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/mining/proof-of-work/pool-mining/gominer/linux/">Linux Guide</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/mining/proof-of-work/pool-mining/gominer/windows/">Windows Guide</a>
+            
+        </li>
+    
+
+        
+    </ul>
+
+        
+    </ul>
+
+        
+            
+    <ul class="subnav">
+    <li><span class="group-heading">cgminer</span></li>
+        
+            
+    <ul class="subnav">
+    <li><span class="group-heading">Pool-Mining</span></li>
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/mining/proof-of-work/pool-mining/cgminer/linux/">Linux Guide</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/mining/proof-of-work/pool-mining/cgminer/windows/">Windows Guide</a>
+            
+        </li>
+    
+
+        
+    </ul>
+
+        
+            
+    <ul class="subnav">
+    <li><span class="group-heading">Solo-Mining</span></li>
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/mining/proof-of-work/solo-mining/cgminer/linux/">Linux Guide</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/mining/proof-of-work/solo-mining/cgminer/windows/">Windows Guide</a>
+            
+        </li>
+    
+
+        
+    </ul>
+
+        
+    </ul>
+
+        
+    </ul>
+
+        
+    </ul>
+</li><li>
+        
+        </li><li class="nav-link">
+    <ul class="subnav">
+    <li><span class="group-heading">FAQ</span></li>
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/faq/general/">General</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/faq/configuration/">Configuration</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/faq/wallets-and-seeds/">Wallets and Seeds</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/faq/web-client/">Web Client</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/faq/blocks/">Blocks</a>
+            
+        </li>
+    
+
+        
+            
+    <ul class="subnav">
+    <li><span class="group-heading">Proof-of-stake</span></li>
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/faq/proof-of-stake/general/">General</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/faq/proof-of-stake/solo-mining/">Solo Mining</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/faq/proof-of-stake/buying-tickets-and-fees/">Buying Tickets and Fees</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/faq/proof-of-stake/voting-tickets/">Voting Tickets</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/faq/proof-of-stake/stake-pools/">Stake Pools</a>
+            
+        </li>
+    
+
+        
+    </ul>
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/faq/proof-of-work-mining/">Proof-of-Work Mining</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/faq/errors/">Common Errors and Solutions</a>
+            
+        </li>
+    
+
+        
+    </ul>
+</li><li>
+        
+        </li><li class="nav-link">
+    <ul class="subnav">
+    <li><span class="group-heading">Advanced</span></li>
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/advanced/manual-cli-install/">Manual CLI Install</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/advanced/storing-login-details/">Storing Login Details</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/advanced/program-options/">Program Options</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/advanced/block-header-specifications/">Block Header Specifications</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/advanced/transaction-details/">Transaction Details</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/advanced/verifying-binaries/">Verifying Binaries</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/advanced/inflation/">Inflation</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/advanced/deleting-your-wallet/">Deleting Your Wallet</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/advanced/dcrctl-usage/">Advanced dcrctl Usage</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/advanced/simnet/">Simnet</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/advanced/contributing/">Contributing Guidelines</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/advanced/user-projects/">User Projects</a>
+            
+        </li>
+    
+
+        
+    </ul>
+</li><li>
+        
+        </li><li class="nav-link">
+    <ul class="subnav">
+    <li><span class="group-heading">Research</span></li>
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="current" href="https://docs.decred.org/research/overview/">Overview</a>
+            
+                <ul class="page-nav">
+                
+                    
+                        <li><a class="toctree-l4" href="https://docs.decred.org/research/overview/#references"> References</a></li>
+                    
+                
+                </ul>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/research/hybrid-design/">Hybrid Design</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/research/decentralized-stake-pooling/">Decentralized Stake Pooling</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/research/elliptic-curve-signature-algorithms/">Elliptic Curve Signature Algorithms</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/research/blake-256-hash-function/">BLAKE-256 Hash Function</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/research/script-extensions/">Script Extensions</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/research/signature-script-isolation-and-fraud-proofs/">Signature Script Isolation and Fraud Proofs</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/research/transaction-extensions/">Transaction Extensions</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/research/schnorr-signatures/">Schnorr Signatures</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/research/miscellaneous-improvements/">Miscellaneous Improvements</a>
+            
+        </li>
+    
+
+        
+    </ul>
+</li><li>
+        
+        </li><li class="nav-link">
+    <ul class="subnav">
+    <li><span class="group-heading">About</span></li>
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/support-directory/">Support Directory</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/about/credits/">Credits</a>
+            
+        </li>
+    
+
+        
+            
+    
+        <li class="toctree-l1 ">
+            <a class="" href="https://docs.decred.org/about/license/">License</a>
+            
+        </li>
+    
+
+        
+    </ul>
+</li><li>
+        
+
+    </li></ul>
+</div>
+                </div>
+                <div class="col-sm-9 col-xs-12" role="main">
+
+                    <a class="github-page-link hidden-xs no-underline" href="https://github.com/decred/dcrdocs/edit/master/docs/research/overview.md" target="_blank">
+                    
+                        <i class="fa fa-github"></i>
+                    
+                    <div>Edit on GitHub</div>
+                    </a>
+
+                    <div class="content">
+                        
+
+<h1 id="overview"><strong><i class="fa fa-info-circle"></i> Overview</strong><a class="headerlink" href="https://docs.decred.org/research/overview/#overview" title="Permanent link">¶</a></h1>
+<hr>
+<p>Distributed timestamping protocols were first applied to decentralizing a financial network in the ground-breaking paper on Bitcoin by Nakamoto<sup id="fnref:1"><a class="footnote-ref" href="https://docs.decred.org/research/overview/#fn:1" rel="footnote">1</a></sup>. The field has seen explosive research follow-up from both amateurs and professionals, competing to offer extensions, adjustments, improvements, and refinements of the existing protocol. Notable implementations of new ideas include Ethereum<sup id="fnref:2"><a class="footnote-ref" href="https://docs.decred.org/research/overview/#fn:2" rel="footnote">2</a></sup>, which extended scripting, CryptoNote<sup id="fnref:3"><a class="footnote-ref" href="https://docs.decred.org/research/overview/#fn:3" rel="footnote">3</a></sup>, which refined privacy, and Sidechains<sup id="fnref:4"><a class="footnote-ref" href="https://docs.decred.org/research/overview/#fn:4" rel="footnote">4</a></sup>, which investigated two-way pegs with 1:1 Bitcoin tokens. These protocols all utilize proof-of-work (PoW) as originally described in the Bitcoin whitepaper.</p>
+<p>A common extension to the Bitcoin protocol modifies the consensus mechanism to either completely or partially use proof-of-stake (PoS), or the use of one’s stake (tokens) rather than one’s computational power to participate in the timestamping process. The first proof-of-stake blockchain based on the Bitcoin protocol was implemented in 2012 by King and Nadal<sup id="fnref:5"><a class="footnote-ref" href="https://docs.decred.org/research/overview/#fn:5" rel="footnote">5</a></sup>, and includes both PoW and PoS that gradually skew towards complete PoS over time. Criticisms of pure PoS consensus systems have themselves been abundant<sup id="fnref:6"><a class="footnote-ref" href="https://docs.decred.org/research/overview/#fn:6" rel="footnote">6</a></sup> <sup id="fnref:7"><a class="footnote-ref" href="https://docs.decred.org/research/overview/#fn:7" rel="footnote">7</a></sup>, with the most vehement opposition coming from those working with purely PoW blockchains. The most common argument against PoS for distributed timestamping is “nothing-at-stake” or “costless simulation”, describing the systematic instability resulting from stakeholders being able to generate alternatively timestamped histories with no cost to themselves.</p>
+<p>Despite the controversy, it is apparent that systems with a PoS overlay dependent on a PoW timestamping system may be able to independently achieve consensus. This is mathematically explored by Bentov and colleagues<sup id="fnref:8"><a class="footnote-ref" href="https://docs.decred.org/research/overview/#fn:8" rel="footnote">8</a></sup> in a paper on their scheme, proof-of-activity (PoA), and appears to be a viable extension to the PoW protocols that may enable some interesting new properties. A similar design called MC2 was earlier proposed by Mackenzie in 2013<sup id="fnref:9"><a class="footnote-ref" href="https://docs.decred.org/research/overview/#fn:9" rel="footnote">9</a></sup>. Here we describe the construction and implementation of a similar consensus system that we have named “Decred”.</p>
+<p>Research work in Decred is currently organized around the following subsections:</p>
+<ul>
+<li><a href="https://docs.decred.org/research/hybrid-design/">Hybrid Design</a></li>
+<li><a href="https://docs.decred.org/research/decentralized-stake-pooling/">Decentralized Stake Pooling</a></li>
+<li><a href="https://docs.decred.org/research/elliptic-curve-signature-algorithms/">Elliptic Curve Signature Algorithms</a></li>
+<li><a href="https://docs.decred.org/research/blake-256-hash-function/">BLAKE-256 Hash Function</a></li>
+<li><a href="https://docs.decred.org/research/script-extensions/">Script Extensions</a></li>
+<li><a href="https://docs.decred.org/research/signature-script-isolation-and-fraud-proofs/">Signature Script Isolation and Fraud Proofs</a></li>
+<li><a href="https://docs.decred.org/research/transaction-extensions/">Transaction Extensions</a></li>
+<li><a href="https://docs.decred.org/research/schnorr-signatures/">Schnorr Signatures</a></li>
+<li><a href="https://docs.decred.org/research/miscellaneous-improvements/">Miscellaneous Improvements</a></li>
+</ul>
+<h2 id="references"><strong><i class="fa fa-book"></i> References</strong><a class="headerlink" href="https://docs.decred.org/research/overview/#references" title="Permanent link">¶</a></h2>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Nakamoto S. 2008. <a href="https://decred.org/research/nakamoto2008.pdf">Bitcoin: A peer-to-peer electronic cash system</a>.&nbsp;<a class="footnote-backref" href="https://docs.decred.org/research/overview/#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>Buterin V. 2014. <a href="https://decred.org/research/buterin2014.pdf">A Next-generation smart contract and decentralized application platform</a>.&nbsp;<a class="footnote-backref" href="https://docs.decred.org/research/overview/#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+<li id="fn:3">
+<p>von Saberhagen N. 2013. <a href="https://decred.org/research/saberhagen2013.pdf">CryptoNote v2.0</a>.&nbsp;<a class="footnote-backref" href="https://docs.decred.org/research/overview/#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text">↩</a></p>
+</li>
+<li id="fn:4">
+<p>Back A., Corallo M., Dashjr L., Friedenbach M., Maxwell G., Miller A., Poelstra A., Timon A., Wuille P. 2014. <a href="https://decred.org/research/back2014.pdf">Enabling Bitcoin innovations with pegged sidechains</a>.&nbsp;<a class="footnote-backref" href="https://docs.decred.org/research/overview/#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text">↩</a></p>
+</li>
+<li id="fn:5">
+<p>King S. and Nadal S. 2012. <a href="https://decred.org/research/king2012.pdf">PPCoin: Peer-to-peer crypto-currency with proof-of-stake</a>.&nbsp;<a class="footnote-backref" href="https://docs.decred.org/research/overview/#fnref:5" rev="footnote" title="Jump back to footnote 5 in the text">↩</a></p>
+</li>
+<li id="fn:6">
+<p>Bentov I., Gabizon A., Mizrahi A. 2015. <a href="https://decred.org/research/bentov2015.pdf">Cryptocurrencies without proof-of-work</a>.&nbsp;<a class="footnote-backref" href="https://docs.decred.org/research/overview/#fnref:6" rev="footnote" title="Jump back to footnote 6 in the text">↩</a></p>
+</li>
+<li id="fn:7">
+<p>Poelstra A. 2015. <a href="https://decred.org/research/poelstra2015.pdf">On stake and consensus</a>.&nbsp;<a class="footnote-backref" href="https://docs.decred.org/research/overview/#fnref:7" rev="footnote" title="Jump back to footnote 7 in the text">↩</a></p>
+</li>
+<li id="fn:8">
+<p>Bentov I., Lee C., Mizrahi A., Rosenfeld M. 2014. <a href="https://decred.org/research/bentov2014.pdf">Proof-of-activity: Extending Bitcoin’s proof-of-work via proof-of-stake</a>.&nbsp;<a class="footnote-backref" href="https://docs.decred.org/research/overview/#fnref:8" rev="footnote" title="Jump back to footnote 8 in the text">↩</a></p>
+</li>
+<li id="fn:9">
+<p>Mackenzie A. 2013. <a href="https://decred.org/research/mackenzie2013.pdf">MEMCOIN2: A hybrid proof-of-work, proof-of-stake crypto-currency</a>.&nbsp;<a class="footnote-backref" href="https://docs.decred.org/research/overview/#fnref:9" rev="footnote" title="Jump back to footnote 9 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+                    </div>
+                </div>
+        </div>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="./Decred_overview _files/require.js"></script>
+        <script src="./Decred_overview _files/base.js"></script>
+        <script src="./Decred_overview _files/MathJax.js"></script>
+    
+</body></html>
