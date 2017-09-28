@@ -1,0 +1,5 @@
+This code was used to perform a zero-knowldge proof based transaction
+on the Ropstein testnet for Ethereum after the Raiden state channel update. 
+Special thanks to the ZCash and Raiden Network teams for implementing this 
+technology.
+
