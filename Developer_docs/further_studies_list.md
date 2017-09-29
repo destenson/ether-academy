@@ -3,6 +3,9 @@
 Frontier Guide: https://github.com/ethereum/frontier-guide
 Smart Contract Best Practices: https://github.com/ConsenSys/smart-contract-best-practices
 MIT_dci dictionary: https://github.com/mit-dci/Dictionary
+Ethereum: https://github.com/ethereum/
+ether-camp: https://github.com/ether-camp 
+Consensys: https://github.com/consensys
 
 Ethereum Only:
 	-
@@ -27,6 +30,7 @@ External Learning Resources:
 Ethereum tools:
 	- https://github.com/ConsenSys/blockapps-web3 : blockapps web3
 	- https://github.com/blockapps/strato-scripts : blockapps strato scripts
+	- https://github.com/blockapps/xamarin-sample-app : Xamarin Sample App
 	- 
 	- https://github.com/jamshidh/ethereum-data-sql : definitions and sql storage for the Ethereum Haskell project.
 	- https://github.com/vbuterin/2fawallet : 2fa wallet (by @vbuterin)
@@ -64,6 +68,7 @@ BlockChain tools:
 	-
 	-
 	-
+
 
 
 Software platforms:
