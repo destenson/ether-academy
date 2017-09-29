@@ -1,12 +1,15 @@
 **Document for possible areas of further study**
 
+
 Frontier Guide: https://github.com/ethereum/frontier-guide
 Smart Contract Best Practices: https://github.com/ConsenSys/smart-contract-best-practices
+MIT-dci research setup: https://github.com/researchsetup/researchsetup.github.io/wiki
 cryptocoins: https://github.com/cryptocoinjs
 MIT_dci: https://github.com/mit-dci/
 Ethereum: https://github.com/ethereum/
 ether-camp: https://github.com/ether-camp 
 Consensys: https://github.com/consensys
+Nethereum: https://github.com/Nethereum
 
 Ethereum Only:
 	-
@@ -22,14 +25,25 @@ Ethereum Only:
 	-
 	- https://github.com/ethereum/genesis_block_generator : Genesis block generator
 	- 
-	- 
+	- https://github.com/ethereumjs/rlp : Recursive Length Prefix Encoding in JavaScript
+	-
+	-
 
 ConsenSys Only: 
 	- https://github.com/ConsenSys/repsys-contracts : RepSys :: Contracts
 	-
+	- https://github.com/ConsenSys/identity-provider identity-provider contains a Web3 Subprovider for interacting with Ethereum accounts without keys present
+	-
 	-
 	-
 
+Consortium Implementations: 
+	- https://github.com/jpmorganchase/quorum-docs : Documentation assets for Quorum
+	- 
+	- 
+	- 
+	- 
+	- 
 
 
 External Learning Resources:
@@ -59,6 +73,7 @@ BlockChain tools:
 	-
 	-
 	- https://github.com/Nethereum/Netherum.Maker : External Api integration with Maker Dapp
+	- https://github.com/Nethereum/abi-code-gen : Generic code generator from Nethereum abi
 	- https://github.com/MetacoSA/Metaco-Trader : Metaco-Trader implementation of NBitcoin.server
 	- https://github.com/MetacoSA/metaco-itbit-client : Metaco-Trader itBit Rest API Client for .NET
 	- https://github.com/MetacoSA/metaco-net-client : Metaco API Client for .NET
@@ -109,9 +124,13 @@ Software tools:
 
 Dapps:
 	- https://github.com/ethereum/meteor-package-blocks : package blocks for Meteor.js
+	- https://github.com/SilentCicero/react-dapp-boilerplate : A highly standardized and optimized react dApp boilerplate.
 	- https://github.com/SilentCicero/meteor-dapp-boilerplate : meteor dapp boilerplate
+	- https://github.com/NickMinnellaCS96/ethdeploy : A complex deployment facility for Ethereum smart-contract development.
+	- https://github.com/ether-camp/wallet : Sample Multisig Wallet app 
 	- https://github.com/tomconte/solarchain-dashboard : Ethereum blockchain dashboard
-	- 
+	-
+	-
 	- https://github.com/maran/notareth : ethereum based notary service
 	- 
 	- 
@@ -135,7 +154,7 @@ Web-Dev:
 Solidity Code:
 	- https://github.com/christianlundkvist/eth-test-contract : ether test contracts
  	- https://github.com/sconover/wrong : Wrong provides a general assert method that takes a predicate block. Assertion failure messages are rich in detail.
- 	- hhttps://github.com/webdaford/smart-contract-tools : Eclipse plugin tools to support Smart Contract Development
+ 	- https://github.com/webdaford/smart-contract-tools : Eclipse plugin tools to support Smart Contract Development
 	- 
 	- https://github.com/chfast/golem-ethereum : Golem transaction based on ethereum network
 	-
@@ -164,8 +183,15 @@ Futuristic Projects:
 	-
 	- https://github.com/zcash-hackworks/babyzoe : Baby ZoE - first step towards Zerocash (sent) over Ethereum
 	- https://github.com/christianlundkvist/lightning_circuit : This is a SNARK implementation using libsnark
+	- https://github.com/ethereum/btcrelay : Ethereum contract for Bitcoin SPV: Live on https://etherscan.io/address/0x41f274c0023f83391de4e0733c609df5a124c3d4 http://btcrelay.org
 	- https://github.com/ConsenSys/QuorumNetworkManager : This project aims to make creating/managing Quorum networks easy.
+	- https://github.com/Nethereum/Nethereum.BlockchainStorage : Library for processing the storage of the Ethereum blockchain in Azure Table Storage
+	- https://github.com/ConsenSys/identity-provider
 	- 
-	- https://github.com/petertodd : One on my favorite people.
+	- 
+	-
+	- https://github.com/nicola/decentralized-research : pioneer for my field.
+	- https://github.com/SilentCicero : the dapp master
+	- https://github.com/petertodd : One on my favorite people
 	- https://github.com/vbuterin : The 21st century Bill Gates
 
