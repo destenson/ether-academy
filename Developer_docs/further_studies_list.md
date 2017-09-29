@@ -1,7 +1,21 @@
 **Document for possible areas of further study**
 
 Frontier Guide: https://github.com/ethereum/frontier-guide
+Smart Contract Best Practices: https://github.com/ConsenSys/smart-contract-best-practices
+MIT_dci dictionary: https://github.com/mit-dci/Dictionary
 
+Ethereum Only:
+	- https://github.com/ethers/EthereumBitcoinSwap : Ethereum contract allowing ether to be obtained with Bitcoin
+	- https://github.com/ethereum/solidity.js : solidity.js
+	- https://github.com/ethereum/ecp : ethereum chain parser
+	- https://github.com/cubedro/eth-netstats : cuberdo's Ethereum Network Stats https://ethstats.net/
+	- 
+	- https://github.com/christianlundkvist/eth-test-contract : Ethereum test contract
+
+
+External Learning Resources:
+	- https://github.com/iurimatias/embark-tutorial : embark tutorial
+	- https://github.com/Fermion-Project/scalability_paper : scalability paper
 
 Ethereum tools:
 	- 
@@ -17,7 +31,7 @@ BlockChain tools:
 	- https://github.com/Fermion-Project/CoinClasses : C++ class library for building standalone applications that can interface the bitcoin network.
 	- https://github.com/aakselrod/libtxchain-java : Decentralized, instant off-chain Bitcoin payments library in Java. NOTE: For historical purposes only; prototype of precursor to Lightning Network.
 	- https://github.com/MetacoSA/Metaco-Trader : Metaco-Trader implementation of NBitcoin.server
-	-
+	- https://github.com/MetacoSA/metaco-itbit-client : Metaco-Trader itBit Rest API Client for .NET
 	-
 	
 
@@ -29,9 +43,10 @@ Web-Dev:
 
 
 Software platforms:
+	- https://github.com/coinbase/coinbase-android-sdk : Android SDK for Coinbase
 	- https://github.com/coinbase/coinbase-bitmonet-sdk : Library to accept bitcoin payments in your Android App https://coinbase.com
 	- https://github.com/mateodelnorte/coinbase : coinbase wrapper
-	-
+	- 
 	- https://github.com/y12studio/y12hadoop : hadoop evals
 
 Software tools:
@@ -40,7 +55,7 @@ Software tools:
 	- 
 	- 
 	- 
-	- 
+	- https://github.com/folsen/haskell-startapp : haskell startapp
 	- https://github.com/y12studio/y12io : Docker & online service eval
 	- https://github.com/codius/codiustest.net : codius testnet 
 
@@ -53,6 +68,7 @@ Mathematical Tools:
 
 Solidity Code:
 	- https://github.com/christianlundkvist/eth-test-contract : ether test contracts
+ 	- https://github.com/sconover/wrong : Wrong provides a general assert method that takes a predicate block. Assertion failure messages are rich in detail.
  	- 
 	- 
 	- https://github.com/chfast/golem-ethereum : Golem transaction based on ethereum network
