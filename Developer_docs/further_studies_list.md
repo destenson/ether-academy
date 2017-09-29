@@ -1,5 +1,7 @@
 **Document for possible areas of further study**
 
+Frontier Guide: https://github.com/ethereum/frontier-guide
+
 
 Ethereum tools:
 	- 
@@ -14,8 +16,16 @@ BlockChain tools:
 	- https://github.com/CodeShark/RippleGen : A simple multithreaded vanity generator for the ripple p2p network
 	- https://github.com/Fermion-Project/CoinClasses : C++ class library for building standalone applications that can interface the bitcoin network.
 	- https://github.com/aakselrod/libtxchain-java : Decentralized, instant off-chain Bitcoin payments library in Java. NOTE: For historical purposes only; prototype of precursor to Lightning Network.
-	- 
+	- https://github.com/MetacoSA/Metaco-Trader : Metaco-Trader implementation of NBitcoin.server
+	-
+	-
+	
 
+
+Web-Dev:
+	- https://github.com/venmo/venmo.github.io : venmo github.io
+	- 
+	- 
 
 
 Software platforms:
