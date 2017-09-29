@@ -2,7 +2,8 @@
 
 Frontier Guide: https://github.com/ethereum/frontier-guide
 Smart Contract Best Practices: https://github.com/ConsenSys/smart-contract-best-practices
-MIT_dci dictionary: https://github.com/mit-dci/Dictionary
+cryptocoins: https://github.com/cryptocoinjs
+MIT_dci: https://github.com/mit-dci/
 Ethereum: https://github.com/ethereum/
 ether-camp: https://github.com/ether-camp 
 Consensys: https://github.com/consensys
@@ -23,12 +24,22 @@ Ethereum Only:
 	- 
 	- 
 
+ConsenSys Only: 
+	- https://github.com/ConsenSys/repsys-contracts : RepSys :: Contracts
+	-
+	-
+	-
+
+
+
 External Learning Resources:
 	- https://github.com/iurimatias/embark-tutorial : embark tutorial
 	- https://github.com/Fermion-Project/scalability_paper : scalability paper
 
 Ethereum tools:
+	- https://github.com/blockapps/xamarin-sdk : BlockAppsSDK is a client, portable class library targeting Xamarin for Visual Studio 4.0 and above
 	- https://github.com/ConsenSys/blockapps-web3 : blockapps web3
+	-
 	- https://github.com/blockapps/strato-scripts : blockapps strato scripts
 	- https://github.com/blockapps/xamarin-sample-app : Xamarin Sample App
 	- 
@@ -95,6 +106,7 @@ Software tools:
 	-
 
 Dapps:
+	- https://github.com/ethereum/meteor-package-blocks : package blocks for Meteor.js
 	- https://github.com/SilentCicero/meteor-dapp-boilerplate : meteor dapp boilerplate
 	- https://github.com/tomconte/solarchain-dashboard : Ethereum blockchain dashboard
 	- 
@@ -110,6 +122,14 @@ Mathematical Tools:
 	- 
 
 
+Web-Dev:
+	-
+	- https://github.com/wing-project/wing-project.github.io : wing-project.github.io
+	- https://github.com/venmo/venmo.github.io : venmo github.io
+	- 
+	- 
+
+
 Solidity Code:
 	- https://github.com/christianlundkvist/eth-test-contract : ether test contracts
  	- https://github.com/sconover/wrong : Wrong provides a general assert method that takes a predicate block. Assertion failure messages are rich in detail.
@@ -118,14 +138,8 @@ Solidity Code:
 	- https://github.com/chfast/golem-ethereum : Golem transaction based on ethereum network
 	-
 	-
-	-
+	- https://github.com/jbaylina/ecsol : elliptic curve solidity 
 
-Web-Dev:
-	-
-	- https://github.com/wing-project/wing-project.github.io : wing-project.github.io
-	- https://github.com/venmo/venmo.github.io : venmo github.io
-	- 
-	- 
 
 
 
@@ -136,6 +150,18 @@ Futuristic Projects:
 	- https://github.com/alex-miller-0/Tor_Crawler : Web crawling with IP rotation via Tor
 	- https://github.com/tomconte/azure-fuse : Prototype FUSE driver for Azure Blob Storage.
 	- https://labs.kunstmaan.be/ : Kunstmaan Labs
+	- https://github.com/professormarek/traceability Ethereum application for traceability ontology by professormarek
+	- https://github.com/tomconte/ethereum-fossilizer : This is a sample Ethereum application built using Truffle. It allows you to "fossilize" documents by storing their hash using a smart contract.
+	- https://github.com/gkapkowski/uport-lib : uport lib
+	- https://github.com/petertodd/dust-b-gone : Clean your Bitcoin-QT wallet of unwanted dust
+	- https://github.com/cicorias/etheradmin : taken from the azure quick start templates
+	- https://github.com/cicorias : this man has done such a great deal of inspiring work.
+	- https://github.com/petertodd/checklocktimeverify-demos : CHECKLOCKTIMEVERIFY (BIP65) Demos
+	- https://github.com/petertodd/timelock : Timelock encryption incentivised by Bitcoin
+	- 
 	-
-
+	-
+	- 
+	- https://github.com/petertodd : One on my favorite people.
+	- https://github.com/vbuterin : The 21st century Bill Gates
 
