@@ -12,7 +12,7 @@ Consensys: https://github.com/consensys
 Nethereum: https://github.com/Nethereum
 
 Ethereum Only:
-	-
+	- https://github.com/ethereum/go-ethereum: Official Go implementation of the Ethereum protocol https://geth.ethereum.org
 	- https://github.com/ethers/EthereumBitcoinSwap : Ethereum contract allowing ether to be obtained with Bitcoin
 	- 
 	- https://github.com/ethereum/solidity.js : solidity.js
@@ -39,7 +39,7 @@ ConsenSys Only:
 
 Consortium Implementations: 
 	- https://github.com/jpmorganchase/quorum-docs : Documentation assets for Quorum
-	- 
+	- https://github.com/rynobey/QuorumNetworkTester : tests for QuorumNetwork
 	- 
 	- 
 	- 
@@ -73,6 +73,7 @@ BlockChain tools:
 	-
 	-
 	- https://github.com/Nethereum/Netherum.Maker : External Api integration with Maker Dapp
+	- https://github.com/Nethereum/abi-code-gen : Nethereum Generic code generator from abi
 	- https://github.com/Nethereum/abi-code-gen : Generic code generator from Nethereum abi
 	- https://github.com/MetacoSA/Metaco-Trader : Metaco-Trader implementation of NBitcoin.server
 	- https://github.com/MetacoSA/metaco-itbit-client : Metaco-Trader itBit Rest API Client for .NET
@@ -103,7 +104,7 @@ Software platforms:
 	-
 	- https://github.com/y12studio/y12hadoop : hadoop evals
 	- https://github.com/mesosphere/net-modules : Apache Mesos modules for network isolation.
-	-
+	- 
 	-
 	-
 	-
@@ -118,7 +119,7 @@ Software tools:
 	- https://github.com/folsen/haskell-startapp : haskell startapp
 	- https://github.com/y12studio/y12io : Docker & online service eval
 	- https://github.com/codius/codiustest.net : codius testnet 
-	-
+	- https://github.com/Fermion-Project/leveldb : LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
 	-
 	-
 
@@ -129,10 +130,16 @@ Dapps:
 	- https://github.com/NickMinnellaCS96/ethdeploy : A complex deployment facility for Ethereum smart-contract development.
 	- https://github.com/ether-camp/wallet : Sample Multisig Wallet app 
 	- https://github.com/tomconte/solarchain-dashboard : Ethereum blockchain dashboard
+	- https://github.com/paritytech/parity-deploy : Parity deployment script.
+	- https://github.com/paritytech/parity-reactive-ui : The Bond-based Parity Reactive UI library
+	- https://github.com/paritytech/dapp-playground : A Dapp to test UI components
+	- https://github.com/Fermion-Project/parity-contracts/settings : A bin for all the contracts we do
+	- https://github.com/paritytech/sms-verification : SMS verification for Parity. https://github.com/ethcore/sms-verifi…
+	-
 	-
 	-
 	- https://github.com/maran/notareth : ethereum based notary service
-	- 
+	- https://github.com/decred/dcrd : Decred daemon in Go (golang). https://decred.org
 	- 
 	- https://github.com/olegabu/decentralized-energy-utility : decentralized-energy-utility
 
@@ -186,11 +193,19 @@ Futuristic Projects:
 	- https://github.com/ethereum/btcrelay : Ethereum contract for Bitcoin SPV: Live on https://etherscan.io/address/0x41f274c0023f83391de4e0733c609df5a124c3d4 http://btcrelay.org
 	- https://github.com/ConsenSys/QuorumNetworkManager : This project aims to make creating/managing Quorum networks easy.
 	- https://github.com/Nethereum/Nethereum.BlockchainStorage : Library for processing the storage of the Ethereum blockchain in Azure Table Storage
-	- https://github.com/ConsenSys/identity-provider
-	- 
+	- https://github.com/ConsenSys/identity-provider : 
+	- https://github.com/ethersphere/swarm-cluster : docker (+kubernetes) config for a swarm cluster
+	- https://github.com/jpoon/winston-azuretable : ☁️ Azure Table transport for Winston logging framework
 	- 
 	-
+	- https://github.com/ether-camp/ethereum-harmony : <ether-camp> harmony
+	- https://github.com/Azure-Samples/raspberry-pi-web-simulator : Raspberry Pi web simulator. Demo address: https://azure-samples.github.io/raspb…
+	- https://github.com/Fermion-Project/parity-oo7-react-api : bond, james bond
+	- https://github.com/Fermion-Project/oo7-parity : Bond API for use with Parity
+	- https://github.com/TrueBitFoundation/Developer-Resources : basis for the future of ICOs
+	- https://github.com/paritytech/parity : Fast, light, robust ethereum implementation
 	- https://github.com/nicola/decentralized-research : pioneer for my field.
+	- https://github.com/ethersphere : essential
 	- https://github.com/SilentCicero : the dapp master
 	- https://github.com/petertodd : One on my favorite people
 	- https://github.com/vbuterin : The 21st century Bill Gates
