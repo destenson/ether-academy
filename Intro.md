@@ -2,9 +2,6 @@
 
 __Pre-Reqs__
 
-
-Microsoft Azure link: https://azure.microsoft.com/en-us/
-
 ACM Software Engineering Code of Ethics: http://www.acm.org/about/se-code
 
 Mt. Gox hack wiki: https://en.wikipedia.org/wiki/Mt._Gox
@@ -14,6 +11,8 @@ The Vitalik Devconn 2 talk: Ethereum in 25 minutes https://www.youtube.com/watch
 The Cryptoeconomic Way: presentation by Vitalik on economic incentives of blockchains https://www.youtube.com/watch?v=ZH9nMKIHfAE&t=343s
 
 Youtube video on ethereum enterprise integrations by blockapps: https://www.youtube.com/watch?v=Mu9EfKlU4_M
+
+Microsoft Azure link: https://azure.microsoft.com/en-us/
 
 What gives a dollar value?(TED-Ed youtube video): https://www.youtube.com/watch?v=XNu5ppFZbHo
 
@@ -59,7 +58,7 @@ How to **Safely** collect payment card information on the Omise.co blockchain: h
 
 __Learning Resources__ 
 
-ethdocs: a hub for add official Ethereum tutorials and setup guides
+ethdocs: a hub for add official Ethereum tutorials and setup guides http://ethdocs.org/en/latest/
 
 bicoin website: https://bitcoin.org/en/
 	
@@ -75,7 +74,7 @@ Ethereum Contracs and Transactions Overview: https://github.com/ethereum/go-ethe
 
 Ethercast shows all DApps currently built through Ethereum, and Ethercasts is also a DApp: https://dapps.ethercasts.com/
 
-<ether.camp> shows many smart contract sources on the Ethereum blockchain
+<ether.camp> shows many smart contract sources on the Ethereum blockchain https://live.ether.camp/
 
 Simple DApp styles (with pictures): https://github.com/ethereum/dapp-styles
 
