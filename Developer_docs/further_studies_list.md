@@ -197,11 +197,14 @@ Futuristic Projects:
 	- https://github.com/ethersphere/swarm-cluster : docker (+kubernetes) config for a swarm cluster
 	- https://github.com/jpoon/winston-azuretable : ☁️ Azure Table transport for Winston logging framework
 	- 
-	-
+	- 
+	- 
+	- https://github.com/EthEmbedded : use raspbian to interact with Ethereum
 	- https://github.com/ether-camp/ethereum-harmony : <ether-camp> harmony
 	- https://github.com/Azure-Samples/raspberry-pi-web-simulator : Raspberry Pi web simulator. Demo address: https://azure-samples.github.io/raspb…
 	- https://github.com/Fermion-Project/parity-oo7-react-api : bond, james bond
 	- https://github.com/Fermion-Project/oo7-parity : Bond API for use with Parity
+	- https://github.com/peacekeeper : peacekeeper
 	- https://github.com/TrueBitFoundation/Developer-Resources : basis for the future of ICOs
 	- https://github.com/paritytech/parity : Fast, light, robust ethereum implementation
 	- https://github.com/nicola/decentralized-research : pioneer for my field.
@@ -209,4 +212,5 @@ Futuristic Projects:
 	- https://github.com/SilentCicero : the dapp master
 	- https://github.com/petertodd : One on my favorite people
 	- https://github.com/vbuterin : The 21st century Bill Gates
+
 
