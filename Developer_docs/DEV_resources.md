@@ -10,6 +10,8 @@ Ethereum Yellow Paper for Formal Specs: https://github.com/ethereum/yellowpaper
 
 Tim Coulter's Truffle test demo video: https://www.youtube.com/watch?v=GPP6uAq15d8
 
+INFURA API for Ethereum Network: http://docs.infura.apiary.io/#reference/0//v1/jsonrpc/{network}/methods
+
 Microsoft Azure Cosmos DB api: https://docs.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally
 
 Web app development with Azure Cosmos DB: https://docs.microsoft.com/en-us/azure/cosmos-db/documentdb-dotnet-application
