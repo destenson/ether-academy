@@ -13,3 +13,6 @@ What tools are there for developing on Ethreum?
 How to unlock Ethereum account from geth command line?
 	- https://ethereum.stackexchange.com/questions/4157/how-to-unlock-the-account-with-geth?noredirect=1&lq=1
 
+How to use Infura or Custom Ethereum node provider: http://truffleframework.com/tutorials/using-infura-custom-provider
+
+
