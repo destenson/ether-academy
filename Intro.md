@@ -30,6 +30,8 @@ Firebase - Auth with Xamarin: https://components.xamarin.com/gettingstarted/fire
 
 Ethereum Mist-Wallet Setup Guide: https://medium.com/@attores/step-by-step-guide-getting-started-with-ethereum-mist-wallet-772a3cc99af4
 
+Ethereum Accounts, Addresses, Public And Private Keys, And Tokens: https://theethereum.wiki/w/index.php/Accounts,_Addresses,_Public_And_Private_Keys,_And_Tokens
+
 Install Go: https://golang.org/doc/install
 
 Meteorjs is a full-stack framework that is Ethereum friendly and recommended for creating DApps on Ethereum: https://www.meteor.com/
