@@ -13,6 +13,10 @@ What tools are there for developing on Ethreum?
 How to unlock Ethereum account from geth command line?
 	- https://ethereum.stackexchange.com/questions/4157/how-to-unlock-the-account-with-geth?noredirect=1&lq=1
 
+What are the steps to deploying a smart contract onto to ropstein ethereum (test) network?
+	- https://ethereum.stackexchange.com/questions/23279/what-is-steps-to-deploy-the-contract-on-ropsten-network
+
 How to use Infura or Custom Ethereum node provider: http://truffleframework.com/tutorials/using-infura-custom-provider
+
 
 
