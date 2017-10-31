@@ -16,6 +16,12 @@ How to unlock Ethereum account from geth command line?
 What are the steps to deploying a smart contract onto to ropstein ethereum (test) network?
 	- https://ethereum.stackexchange.com/questions/23279/what-is-steps-to-deploy-the-contract-on-ropsten-network
 
+Where to mine ropstein testnet Ethereum?
+	- http://faucet.ropsten.be:3001/
+
+Where can I find a walkthrough for making my first Decentralized app on the Ethereum Network?
+	- https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2
+
 How to use Infura or Custom Ethereum node provider: http://truffleframework.com/tutorials/using-infura-custom-provider
 
 
