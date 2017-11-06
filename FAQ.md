@@ -35,3 +35,6 @@ How to deploy a standard ERC20 token?
 How to make a voting(commit-reveal) contract and deploy it?
 	- https://karl.tech/learning-solidity-part-2-voting/
 
+Where to find Ethereum bounties?
+	- https://bounty.ethereum.org/
+
