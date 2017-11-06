@@ -25,7 +25,13 @@ Where can I find a walkthrough for making my first Decentralized app on the Ethe
 How to verify an Ethereum contract with abi-encoded constructor argument?
 	- https://ethereum.stackexchange.com/questions/22805/how-do-i-create-abi-encoded-constructor-argument-to-verify-an-ehtereum-contract
 
-How to use Infura or Custom Ethereum node provider: http://truffleframework.com/tutorials/using-infura-custom-provider
+How to use Infura or Custom Ethereum node provider?
+	- http://truffleframework.com/tutorials/using-infura-custom-provider
 
 
+How to deploy a standard ERC20 token? 
+	- https://media.consensys.net/how-to-create-your-own-tokens-standard-token-factory-for-humans-deployed-e92649a1bb5e
+
+How to make a voting(commit-reveal) contract and deploy it?
+	- https://karl.tech/learning-solidity-part-2-voting/
 
