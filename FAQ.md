@@ -38,3 +38,5 @@ How to make a voting(commit-reveal) contract and deploy it?
 Where to find Ethereum bounties?
 	- https://bounty.ethereum.org/
 
+How to begin developing smart contracts using Metamask: https://medium.com/metamask/metamask-hackathon-guide-a88a161416ce
+
