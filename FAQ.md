@@ -3,6 +3,8 @@
 How are ethereum addresses generated?	
 	- https://ethereum.stackexchange.com/questions/3542/how-are-ethereum-addresses-generated/3619#3619
 
+What to expect when participating in a token sale? 
+	- https://media.consensys.net/what-to-expect-when-participating-in-a-token-launch-649e35343e85
 
 
 **FAQ** (for Developers):
