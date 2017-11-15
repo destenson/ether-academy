@@ -16,4 +16,6 @@ Medium article on POS distributed consensus mechanism: https://medium.com/@pirap
 
 Medium post on Decentralization quantification methods: https://news.21.co/quantifying-decentralization-e39db233c28e
 
+Vitalik on ZK Starks: http://vitalik.ca/general/2017/11/09/starks_part_1.html
+
 
