@@ -22,6 +22,8 @@ Vitalik description of zk-proofs: https://www.youtube.com/watch?v=n8zsPf4FzO4
 
 Zcash on Ethereum at Devcon2: https://www.youtube.com/watch?v=PCW2EaBjVPs
 
+Parity Multi-signuature Post-Mortem: https://paritytech.io/blog/security-is-a-process-a-postmortem-on-the-parity-multi-sig-library-self-destruct.html
+
 Xamarin Firebase Integrations: https://developer.xamarin.com/guides/android/application_fundamentals/notifications/firebase-cloud-messaging/
 
 Bring Android pay to your apps with Stripe: https://blog.xamarin.com/bring-android-pay-to-your-apps-with-stripe/
