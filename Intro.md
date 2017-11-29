@@ -22,6 +22,8 @@ Vitalik description of zk-proofs: https://www.youtube.com/watch?v=n8zsPf4FzO4
 
 Zcash on Ethereum at Devcon2: https://www.youtube.com/watch?v=PCW2EaBjVPs
 
+Parity Multi-signuature Post-Mortem: https://paritytech.io/blog/security-is-a-process-a-postmortem-on-the-parity-multi-sig-library-self-destruct.html
+
 Xamarin Firebase Integrations: https://developer.xamarin.com/guides/android/application_fundamentals/notifications/firebase-cloud-messaging/
 
 Bring Android pay to your apps with Stripe: https://blog.xamarin.com/bring-android-pay-to-your-apps-with-stripe/
@@ -29,6 +31,8 @@ Bring Android pay to your apps with Stripe: https://blog.xamarin.com/bring-andro
 Firebase - Auth with Xamarin: https://components.xamarin.com/gettingstarted/firebase-auth
 
 Ethereum Mist-Wallet Setup Guide: https://medium.com/@attores/step-by-step-guide-getting-started-with-ethereum-mist-wallet-772a3cc99af4
+
+Ethereum Accounts, Addresses, Public And Private Keys, And Tokens: https://theethereum.wiki/w/index.php/Accounts,_Addresses,_Public_And_Private_Keys,_And_Tokens
 
 Install Go: https://golang.org/doc/install
 
