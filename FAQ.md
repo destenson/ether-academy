@@ -42,3 +42,6 @@ Where to find Ethereum bounties?
 
 How to begin developing smart contracts using Metamask: https://medium.com/metamask/metamask-hackathon-guide-a88a161416ce
 
+How to deploy an ERC-20 token using ethereum's Remix IDE: https://www.youtube.com/watch?v=vFO5EWIWlX4&feature=youtu.be
+
+
