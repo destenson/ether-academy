@@ -153,6 +153,8 @@ Bitcoin Proposol for Compact light-Client-Side filtering: https://lists.linuxfou
 
 __Useful Platforms and Apps__
 
+uPort self-sovereign identity on the ethereum blockchain: http://developer.uport.me/
+
 ethstats has official stats of Ethereum's network: https://ethstats.net/ 
 
 <ether.camp> https://live.ether.camp/
