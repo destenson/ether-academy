@@ -28,7 +28,9 @@ Interface Design:
   
 
 IOT:
-  - 
+  - https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide
+  -
+  -
   - https://github.com/uport-project/mnid
   -
 
@@ -45,6 +47,8 @@ Cite:
   - https://github.com/Fermion-Project/Nethereum.BlockchainStorage
   - https://github.com/Nethereum/Nethereum.UI.Wallet.Sample
   - https://github.com/EthereumEx/ethstats-api
+  - https://github.com/cicorias/standalone-miner
+  - 
   - 
   
 
