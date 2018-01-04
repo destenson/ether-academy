@@ -64,6 +64,8 @@ __Learning Resources__
 
 ethdocs: a hub for add official Ethereum tutorials and setup guides http://ethdocs.org/en/latest/
 
+smart-contract best practices: https://consensys.github.io/smart-contract-best-practices/general_philosophy/
+
 bicoin website: https://bitcoin.org/en/
 	
 Ethereum Homestead: http://www.ethdocs.org/en/latest/index.html	
