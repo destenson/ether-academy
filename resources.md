@@ -6,7 +6,11 @@ Development Platforms:
   - https://github.com/arduino/Arduino
   - https://github.com/iron-meteor/iron-router
   - https://github.com/Azure/azure-mobile-apps-quickstarts
-  -
+  - https://github.com/Azure/azure-mobile-apps-quickstarts
+  - https://aws.amazon.com/serverless/
+  - https://aws.amazon.com/windows/
+  - https://github.com/aws/chalice
+  - https://aws.amazon.com/lambda/
   
 
 
