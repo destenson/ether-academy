@@ -14,14 +14,15 @@ Development Platforms:
   
 
 
-Ethereum Specific:
+Ethereum related:
   - https://github.com/ethereum/economic-modeling
   - https://github.com/vbuterin/diagrams
   - https://github.com/ethereum/dapp-bin
   -
   - https://github.com/SilentCicero/ethereumjs-accounts
   - simplecasper POC: https://github.com/ethereum/simplecasper
-  - 
+  - https://github.com/uport-project/mnid 
+  -
   
 
 
@@ -39,18 +40,21 @@ IOT:
   - https://aws.amazon.com/freertos/
   - https://github.com/Azure/azure-event-hubs-c
   - https://github.com/Azure/azure-iot-sdks
+  - https://aws.amazon.com/iot-core/
   -
-  -
-  - https://github.com/uport-project/mnid
   -
 
 
 Learning:
   - (general) https://github.com/EthereumEx/blockchain-060
   - (CAP theorem) https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45855.pdf
+  - (grids) https://en.wikipedia.org/wiki/Grid_computing
   
-Cryptocurrency:
-  - 
+fianancial services:
+  - https://aws.amazon.com/api-gateway/?nc2=h_m1
+  - https://aws.amazon.com/financial-services/capital-markets/
+  
+  
 
 
 Cite:
