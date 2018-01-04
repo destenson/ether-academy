@@ -5,8 +5,8 @@ Development Platforms:
   - https://github.com/telehash/telehash-js
   - https://github.com/arduino/Arduino
   - https://github.com/iron-meteor/iron-router
-  
-  
+  - https://github.com/Azure/azure-mobile-apps-quickstarts
+  -
   
 
 
@@ -29,6 +29,12 @@ Interface Design:
 
 IOT:
   - https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide
+  - https://github.com/Azure/azure-iot-remote-monitoring
+  - https://aws.amazon.com/iot/?nc2=h_iot
+  - https://github.com/Azure/toketi-iothubreact
+  - https://aws.amazon.com/freertos/
+  - https://github.com/Azure/azure-event-hubs-c
+  - https://github.com/Azure/azure-iot-sdks
   -
   -
   - https://github.com/uport-project/mnid
@@ -36,8 +42,8 @@ IOT:
 
 
 Learning:
-  - https://github.com/EthereumEx/blockchain-060
-  - 
+  - (general) https://github.com/EthereumEx/blockchain-060
+  - (CAP theorem) https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45855.pdf
   
 Cryptocurrency:
   - 
