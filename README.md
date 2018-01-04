@@ -1,6 +1,6 @@
-**This is the Official Repo for all learning resources(for our group, not endorsed by Eth).**
+**This is the Official Repo for all learning resources(for our group, not endorsed by ethereum).**
 
 Current plan is to use this repo to keep track of sources and turn this into learning material.
 
-most up to date documentation for Ethereum: https://github.com/ethereum/wiki
-
+- Documentation for ethereum: https://github.com/ethereum/wiki
+- Research from ethereum: https://github.com/ethereum/research
