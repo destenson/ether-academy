@@ -2,4 +2,5 @@
 
 Current plan is to use this repo to keep track of sources and turn this into learning material.
 
+most up to date documentation for Ethereum: https://github.com/ethereum/wiki
 
