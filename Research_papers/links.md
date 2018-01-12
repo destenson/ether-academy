@@ -18,4 +18,4 @@ Medium post on Decentralization quantification methods: https://news.21.co/quant
 
 Vitalik on ZK Starks: http://vitalik.ca/general/2017/11/09/starks_part_1.html
 
-
+privacy-preserving biometrics: http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1635&context=ccpubs
