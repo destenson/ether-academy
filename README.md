@@ -4,7 +4,7 @@ Current plan is to use this repo to keep track of sources and turn this into lea
 
 - Documentation for ethereum: https://github.com/ethereum/wiki
 - Research from ethereum: https://github.com/ethereum/research
-- Ethereum Research Forum: https://ethresear.ch/
+- Ethereum research forum: https://ethresear.ch/
 - Official ethereum blog: https://blog.ethereum.org/
 - stateoftheDapps: https://www.stateofthedapps.com/
 
