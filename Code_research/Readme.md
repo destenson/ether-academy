@@ -14,11 +14,13 @@ Follow these repos for the sources:
 12. py_elliptic_curve_pairing: 
 13. raiden-token: 
 14. raiden: 
-15. rb-relay: https://github.com/ConsenSys/rb-relay.git
+15. rb-relay: https://github.com/ConsenSys/rb-relay
 16. state_channel_contracts(): 
 17. swarm-dist-storage(): 
 18. uport-id-contracts: 
 19. Baby-ZoE: 
 20. zk-snark(Testnet):
+21. Minimum Viable Plasma: https://github.com/omisego/plasma-mvp
 
 - IC3 Projects: http://www.initc3.org/projects.html
+
