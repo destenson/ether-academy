@@ -23,4 +23,4 @@ Follow these repos for the sources:
 21. Minimum Viable Plasma: https://github.com/omisego/plasma-mvp
 
 - IC3 Projects: http://www.initc3.org/projects.html
-
+- TenderMint BFT: https://github.com/tendermint/tendermint
