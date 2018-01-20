@@ -7,4 +7,5 @@ Current plan is to use this repo to keep track of sources and turn this into lea
 - Ethereum research forum: https://ethresear.ch/
 - Official ethereum blog: https://blog.ethereum.org/
 - stateoftheDapps: https://www.stateofthedapps.com/
+- Ethereum bounties: https://bounty.ethereum.org/
 
